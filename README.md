@@ -1,2 +1,2 @@
 # Powershell-ServiceWatch
-Powershell functions for ServiceWatch related tasks
+Powershell functions for ServiceWatch (from ServiceNow) related tasks
