@@ -33,7 +33,7 @@ Copyright = '(c) 2015 Sebastian Neumann. All rights reserved.'
 Description = ''
 
 # Minimum PowerShell Version Required
-PowerShellVersion = '3'
+PowerShellVersion = '3.0'
 
 # Name of Required PowerShell Host
 PowerShellHostName = ''
