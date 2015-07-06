@@ -17,7 +17,7 @@ Function Get-ServiceWatchVersion {
 #>
     [CmdletBinding(DefaultParametersetName='BaseUri')]
     Param(
-    [Parameter(ParameterSetName='BaseUri')]
+    [Parameter(ParameterSetName='BaseUri',ValueFromPipelineByPropertyName=$true)]
     [Alias('URI')]
     [string]$BaseUri = 'http://srvmgt025.mydomain.internal:8080',
 
