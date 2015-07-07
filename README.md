@@ -4,6 +4,7 @@ Powershell functions for ServiceWatch (from ServiceNow) related tasks
 The ServiceWatch Powershell module currently contains `4` functions:
 
 ```powershell
+PS C:\> Import-Module ServiceWatch
 PS C:\> Get-Command -Module ServiceWatch
 
 CommandType     Name                                               ModuleName
