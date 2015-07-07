@@ -17,7 +17,7 @@ Function        New-ServiceWatchSession                            ServiceWatch
 
 Get-ServiceWatchVersion is the only function that can be run without having to create a session with `New-ServiceWatchSession` first.
 
-Functions can be runs as follows:
+Functions can be run as follows:
 
 ```powershell
 $session = New-ServiceWatchSession -cn srvmgt025
