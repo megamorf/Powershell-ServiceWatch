@@ -20,7 +20,7 @@ Get-ServiceWatchVersion is the only function that can be run without having to c
 Functions can be run as follows:
 
 ```powershell
-$session = New-ServiceWatchSession -cn srvmgt025
+$session = New-ServiceWatchSession -cn srvmgt025 -credential (get-credential)
 $session | Get-ServiceWatchVersion
 $session | Get-ServiceWatchStatus 
 $session | Export-ServiceWatchKnowledgebase -Destination D:\exports\
